@@ -3,31 +3,28 @@
     <head>
         <title>THE WOO |store</title>
         <meta name="description" content="this is the description">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-         <header>
-            <nav>
+         <header class="main-header">
+            <nav class="main-nav nav">
                 <ul>
                   <li> <a href="index.html">HOME</a></li>
                     <li><a href="store.html">STORE</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>THE WOO</h1>
-            <br>
-            <br>
+            <h1 class="band-name band-name-large">THE WOO</h1>
          </header>
-         <section>
-            <h2>MUSIC</h2>
-            <div>
-                <div>
-                   <strong>Album 1</strong>
-                </div>
-                <img height="300" width="250" src="/images/damon-lam-iQTPNZoaRNU-unsplash.jpg" alt="">
-                <div>
-                  <span>$13.45</span>
-                  <button role="button">ADD TO CART</button>
+         <section class="container content-section">
+            <h2 class="section-header">MUSIC</h2>
+            <div class="shop-item">
+            <div class="shop-items">
+                <span class="shop-item-title">Album 1</span>
+                <img class="shop-item-image" height="300" width="250" src="/images/damon-lam-iQTPNZoaRNU-unsplash.jpg" alt="">
+                <div class="shop-item-details">
+                  <span class="shop-item-price">$13.45</span>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
              </div>
              <div>
@@ -62,7 +59,9 @@
                         <span>$12.43</span>
                         <button role="button">ADD TO CART</button>
                       </div>
-                   </div>  
+                   </div>
+                  </div>
+              </div>
          </section>
               
          <section>
